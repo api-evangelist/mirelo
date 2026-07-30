@@ -1,22 +1,74 @@
 aid: mirelo
 name: Mirelo
-description: 'Mirelo is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Mirelo is a Berlin-based AI research lab building state-of-the-art audio
+  foundation models for visual media. Its flagship Mirelo SFX model generates
+  production-ready, perfectly synced sound effects directly from video (or from
+  text prompts) with no background-music noise, plus iterative editing, audio
+  inpainting, sound extension, and a multi-instrument Audio-to-MIDI model. Mirelo
+  ships a self-serve REST API (https://api.mirelo.ai/v2/), the Mirelo Studio web
+  app, official Node.js and Python SDKs, and editor plugins for Adobe Premiere
+  Pro, DaVinci Resolve, Reaper, and Roblox Studio. The models are also
+  distributed on fal.ai, Replicate, and Runware. Founded by musicians-turned-AI
+  researchers from Amazon, Google Brain, Max Planck and ETH Zurich, Mirelo
+  raised a $41M seed round co-led by Index Ventures and Andreessen Horowitz in
+  December 2025.
 url: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - index-ventures
+- andreessen-horowitz
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://mirelo.ai/opengraph-image.png
 tags:
 - Company
 - Ai Ml
-apis: []
+- Audio
+- Sound Effects
+- Generative AI
+- Video
+- Text to Audio
+- Audio to MIDI
+- Machine Learning
+apis:
+- name: Mirelo SFX API
+  description: >-
+    Self-serve REST API to generate and edit sound effects from video or text.
+    Bearer-token (API key) auth; JSON request/response returning generated audio
+    asset URLs; synchronous and asynchronous (job-polling) modes; a preflight
+    endpoint returns credit cost and estimated processing time before billing.
+    Model revisions are pinned in the request path (e.g. text-to-sfx/v1.6).
+  humanURL: https://mirelo.ai/api-docs
+  baseURL: https://api.mirelo.ai/v2
+  tags:
+  - Audio
+  - Sound Effects
+  - Generative AI
+  - Video
+  properties:
+  - type: Documentation
+    url: https://mirelo.ai/api-docs
+  - type: APIReference
+    url: https://mirelo.ai/api-docs
+  - type: Authentication
+    url: authentication/mirelo-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +76,51 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://mirelo.ai
+  url: https://mirelo.ai
+- type: Documentation
+  url: https://mirelo.ai/api-docs
+- type: APIReference
+  url: https://mirelo.ai/api-docs
+- type: Blog
+  url: https://mirelo.ai/blog
+- type: BlogRSS
+  url: https://mirelo.ai/feed.xml
+- type: Pricing
+  url: https://mirelo.ai/pricing
+- type: Support
+  url: https://mirelo.ai/support
+- type: SignUp
+  url: https://mirelo.ai/sfx
+- type: TermsOfService
+  url: https://mirelo.ai/terms
+- type: PrivacyPolicy
+  url: https://mirelo.ai/privacy
+- type: GitHubOrganization
+  url: https://github.com/mirelo-ai
+- type: StatusPage
+  url: https://status.mirelo.ai
+- type: Authentication
+  url: authentication/mirelo-authentication.yml
+- type: Conventions
+  url: conventions/mirelo-conventions.yml
+- type: Lifecycle
+  url: lifecycle/mirelo-lifecycle.yml
+- type: ChangeLog
+  url: changelog/mirelo-changelog.yml
+- type: Packages
+  url: packages/mirelo-packages.yml
+- type: SDKs
+  url: packages/mirelo-packages.yml
+- type: MCPServer
+  url: mcp/mirelo-mcp.yml
+- type: Components
+  url: components/mirelo-components.yml
+- type: DomainSecurity
+  url: security/mirelo-domain-security.yml
+- type: LLMsTxt
+  url: llms/mirelo-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 10
+  pass: local-v1
