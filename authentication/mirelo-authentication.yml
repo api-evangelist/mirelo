@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://mirelo.ai/api-docs
+docs: https://mirelo.ai/api-docs
+summary:
+  types:
+  - http
+  scheme: bearer
+  api_key_in:
+  - header
+  oauth2_flows: []
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  description: >-
+    All requests to the Mirelo API (https://api.mirelo.ai/v2/) are authenticated
+    with a secret API key passed as a bearer token in the Authorization header:
+    `Authorization: Bearer sk-...`. API keys are issued from the Mirelo Studio
+    account dashboard. Keys carry the account's credit balance; there is no
+    OAuth or per-scope authorization surface.
+  token_prefix: sk-
+  header: Authorization
+  sources:
+  - https://mirelo.ai/api-docs
+notes: >-
+  Key-auth provider (single secret bearer token). No OAuth2/OIDC and no scope
+  surface, so scopes/ is intentionally not produced.

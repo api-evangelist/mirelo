@@ -1,0 +1,61 @@
+generated: '2026-07-20'
+method: searched
+source: https://mirelo.ai/api-docs
+docs: https://mirelo.ai/api-docs
+api_base: https://api.mirelo.ai/v2/
+conventions:
+  authentication:
+    style: bearer-token
+    header: Authorization
+    format: 'Bearer sk-...'
+    ref: authentication/mirelo-authentication.yml
+  versioning:
+    style: uri-path-and-model
+    api_version: v2
+    model_version_in_path: true
+    example: /v2/text-to-sfx/v1.6/sync
+    notes: >-
+      The HTTP API is versioned in the path (v2). The generation model version
+      is ALSO pinned in the path segment (e.g. v1.6), so callers select an exact
+      model revision per request.
+  execution_modes:
+    - mode: sync
+      description: >-
+        Synchronous generation endpoints (.../sync) return the finished result
+        inline. Long generations may time out around ~60s; use the async mode
+        for longer jobs.
+    - mode: async
+      description: >-
+        Asynchronous job submission returns a job the caller polls for
+        completion; used for longer/looping generations.
+  preflight:
+    description: >-
+      GET .../preflight returns a cost estimate (credits) and an estimated
+      processing time (estimated_ms) before committing a billable generation.
+    response_fields: [credits, estimated_ms]
+  billing:
+    unit: credits
+    signaling: >-
+      Generations debit account credits; SFX 1.6 costs ~10 credits/sec and
+      Audio-to-MIDI ~2.5 credits/sec. Preflight returns the credit cost up front.
+  request_format:
+    content_type: application/json
+  response_format:
+    content_type: application/json
+    result_field: result_urls
+    notes: Successful generations return audio asset URLs (e.g. cdn.mirelo.ai/...).
+  idempotency:
+    supported: false
+    notes: >-
+      No idempotency-key header or parameter is documented as of this capture.
+      (No `type: Idempotency` pointer is emitted.)
+  rate_limits:
+    documented: false
+    notes: No explicit rate-limit headers or quotas are published; usage is
+      governed by plan credit balances.
+  pagination:
+    documented: false
+cross_links:
+  authentication: authentication/mirelo-authentication.yml
+  lifecycle: lifecycle/mirelo-lifecycle.yml
+  changelog: changelog/mirelo-changelog.yml

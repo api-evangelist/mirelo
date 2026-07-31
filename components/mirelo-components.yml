@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://mirelo.ai/, https://mirelo.ai/api-docs
+note: >-
+  Mirelo ships client-side integrations as editor/DAW plugins that embed the
+  Mirelo SFX generation surface inside third-party creative tools, rather than
+  web/JS embeddable UI widgets. Captured here as the embedded-surface family.
+families:
+- family: editor-plugins
+  description: Plugins that embed Mirelo SFX generation into video/audio editors.
+  components:
+  - name: Adobe Premiere Pro plugin
+    host_app: Adobe Premiere Pro
+  - name: DaVinci Resolve plugin
+    host_app: DaVinci Resolve
+  - name: Reaper plugin
+    host_app: Reaper (DAW)
+    source_code: https://github.com/mirelo-ai/reaper
+  - name: Roblox Studio plugin
+    host_app: Roblox Studio
+- family: web-tools
+  description: Hosted web surfaces (not embeddable libraries).
+  components:
+  - name: Mirelo Studio
+    url: https://mirelo.ai/sfx
+    description: Web-based editor for generating and iterating on sound effects.
+  - name: Gibberize
+    url: https://mirelo.ai/gibberize
+    description: Free web tool turning talking videos into lip-synced gibberish.

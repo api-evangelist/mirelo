@@ -1,0 +1,43 @@
+# llms.txt for Mirelo AI
+# See also: https://mirelo.ai/sitemap.xml
+# Date: 2026-07-20T19:38:32.421Z
+# This index is optimized for LLM ingestion and grounded retrieval.
+
+# Primary documentation and public pages
+https://mirelo.ai/
+https://mirelo.ai/pricing
+https://mirelo.ai/blog
+https://mirelo.ai/resources/blog
+https://mirelo.ai/feed.xml
+https://mirelo.ai/feed.json
+https://mirelo.ai/sitemap.xml
+https://mirelo.ai/creative-partnerships
+https://mirelo.ai/terms
+https://mirelo.ai/api-terms
+https://mirelo.ai/privacy
+https://mirelo.ai/imprint
+
+# Products and tools
+# Gibberize — Free web tool that turns talking videos into lip-synced gibberish speech.
+https://mirelo.ai/gibberize
+https://mirelo.ai/blog/gibberize
+# Mirelo SFX — AI video-to-sound product: generate and iterate SFX in Studio, plugins, and API.
+https://mirelo.ai/sfx
+https://mirelo.ai/models/1-6
+https://mirelo.ai/blog/beyond-generation-iterative-editing
+# Audio-to-MIDI — Multi-instrument audio-to-MIDI model that turns full mixes into editable MIDI tracks.
+https://mirelo.ai/models/audio-to-midi
+https://mirelo.ai/blog/turning-audio-to-midi
+
+# Recent blog posts
+https://mirelo.ai/blog/gibberize
+https://mirelo.ai/blog/turning-audio-to-midi
+https://mirelo.ai/blog/beyond-generation-iterative-editing
+https://mirelo.ai/blog/mirelo-sfx-now-live-on-runware
+https://mirelo.ai/blog/mirelo-seed-round
+https://mirelo.ai/blog/launching-the-mirelo-studio-and-mirelo-sfx-1-5
+https://mirelo.ai/blog/mirelo-sfx-now-live-on-replicate
+https://mirelo.ai/blog/new-partnership-mirelo-sfx-launched-on-fal-ai
+
+# Resources
+https://mirelo.ai/resources/blog/beyond-generation-iterative-editing

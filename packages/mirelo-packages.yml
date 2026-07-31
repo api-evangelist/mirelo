@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/mirelo-ai/sdk, npm registry, PyPI
+packages:
+- language: javascript
+  registry: npm
+  name: "@mirelo/sdk"
+  url: https://www.npmjs.com/package/@mirelo/sdk
+  install: npm install @mirelo/sdk
+  official: true
+  author: Mirelo AI GmbH
+  source_code: https://github.com/mirelo-ai/sdk
+  description: Official Mirelo API SDK for Node.js/TypeScript (text-to-sfx,
+    video-to-sfx, preflight, sync + async jobs).
+- language: python
+  registry: pypi
+  name: mirelo-sdk
+  url: https://pypi.org/project/mirelo-sdk/
+  install: pip install mirelo-sdk
+  official: true
+  source_code: https://github.com/mirelo-ai/sdk
+  description: Official Mirelo API SDK for Python.
+- language: lua
+  registry: github
+  name: reaper
+  url: https://github.com/mirelo-ai/reaper
+  official: true
+  description: Official Mirelo Reaper (DAW) plugin for AI sound generation (MIT).
+- language: javascript
+  registry: npm
+  name: mirelo-mcp-server
+  url: https://www.npmjs.com/package/mirelo-mcp-server
+  install: npx mirelo-mcp-server
+  official: false
+  author: flozonn
+  source_code: https://github.com/flozonn/mirelo-mcp
+  description: Community MCP server wrapping the Mirelo v2 HTTP API (third-party).
+examples:
+- name: api-examples
+  url: https://github.com/mirelo-ai/api-examples
+  official: true
+  archived: true
+  description: Official examples of how to use Mirelo's API (JavaScript, archived).

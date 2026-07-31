@@ -1,0 +1,47 @@
+generated: '2026-07-20'
+method: searched
+source: https://mirelo.ai/blog
+docs: https://mirelo.ai/blog
+feeds:
+  rss: https://mirelo.ai/feed.xml
+  json: https://mirelo.ai/feed.json
+scheme: dated-blog-and-model-versions
+current_model: Mirelo SFX 1.6
+notes: >-
+  Mirelo publishes releases through its blog (model launches, iterative-editing
+  capabilities, and marketplace/partner availability) rather than a dedicated
+  developer changelog page. Recent window captured below.
+entries:
+- date: '2026-07-17'
+  title: 'Meet Gibberize: turn talking videos into lip-synced gibberish'
+  type: product
+  url: https://mirelo.ai/blog/gibberize
+- date: '2026-07-09'
+  title: Turning audio to MIDI (multi-instrument Audio-to-MIDI model)
+  type: model-launch
+  url: https://mirelo.ai/blog/turning-audio-to-midi
+- date: '2026-05-19'
+  title: 'Beyond generation: first step towards iterative editing (SFX 1.6)'
+  type: capability
+  breaking: false
+  url: https://mirelo.ai/blog/beyond-generation-iterative-editing
+- date: '2026-05-06'
+  title: Mirelo SFX now live on Runware
+  type: availability
+  url: https://mirelo.ai/blog/mirelo-sfx-now-live-on-runware
+- date: '2025-12-15'
+  title: Announcing Mirelo's seed round with a16z and Index
+  type: company
+  url: https://mirelo.ai/blog/mirelo-seed-round
+- date: '2025-10-22'
+  title: Launching the Mirelo Studio and Mirelo SFX 1.5
+  type: product
+  url: https://mirelo.ai/blog/launching-the-mirelo-studio-and-mirelo-sfx-1-5
+- date: '2025-09-18'
+  title: Mirelo SFX now live on Replicate
+  type: availability
+  url: https://mirelo.ai/blog/mirelo-sfx-now-live-on-replicate
+- date: '2025-08-20'
+  title: 'New partnership: Mirelo SFX launched on fal.ai'
+  type: availability
+  url: https://mirelo.ai/blog/new-partnership-mirelo-sfx-launched-on-fal-ai

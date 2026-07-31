@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://mirelo.ai/api-docs, https://status.mirelo.ai
+versioning:
+  scheme: uri-path
+  current: v2
+  model_versioning: >-
+    Model revisions are pinned in the request path (e.g. text-to-sfx/v1.6);
+    prior model versions (1.5) remain referenceable while newer revisions ship.
+  docs: https://mirelo.ai/api-docs
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No formal deprecation policy or RFC 8594 Sunset/Deprecation header
+    support is documented.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.mirelo.ai
+status_page_provider: incident.io
+status_components:
+- Website
+- Mirelo Studio
+- Plugins
+- API
+deprecated_operations: []
