@@ -2,6 +2,13 @@
   "repo": "mirelo",
   "feeds": [
     {
+      "source": "https://mirelo.ai/feed.xml",
+      "feed_url": "https://mirelo.ai/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://mirelo.ai/api-docs",
       "feed_url": "https://mirelo.ai/feed.xml",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 9,
+  "fetched": "2026-08-01T15:49:00Z"
 }
