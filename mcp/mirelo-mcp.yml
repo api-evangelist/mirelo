@@ -1,6 +1,7 @@
 generated: '2026-07-20'
 method: searched
-status: community
+status: third-party
+status_raw: community
 source: https://www.npmjs.com/package/mirelo-mcp-server
 server:
   name: mirelo-mcp-server
