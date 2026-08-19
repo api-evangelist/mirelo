@@ -10,33 +10,35 @@ server:
   transport: stdio
   install: npx mirelo-mcp-server
   repository: https://github.com/flozonn/mirelo-mcp
-  description: >-
-    Community-published Model Context Protocol server wrapping the Mirelo v2
-    HTTP API. Not first-party, but functional against the same API key and
-    endpoints. No official hosted/remote MCP server is published by Mirelo as
-    of this capture.
+  description: Community-published Model Context Protocol server wrapping the Mirelo v2 HTTP API. Not
+    first-party, but functional against the same API key and endpoints. No official hosted/remote MCP
+    server is published by Mirelo as of this capture.
 tools:
 - name: text_to_sfx
   description: Generate sound effects from a text prompt.
-  source_operation: 'POST https://api.mirelo.ai/v2/text-to-sfx/v1.6/sync'
+  source_operation: POST https://api.mirelo.ai/v2/text-to-sfx/v1.6/sync
   status: candidate
 - name: text_to_sfx_preflight
   description: Estimate credit cost and processing time for a text-to-sfx job.
-  source_operation: 'GET https://api.mirelo.ai/v2/text-to-sfx/v1.6/preflight'
+  source_operation: GET https://api.mirelo.ai/v2/text-to-sfx/v1.6/preflight
   status: candidate
 - name: video_to_sfx
   description: Generate synced sound effects directly from a video.
-  source_operation: 'POST https://api.mirelo.ai/v2/video-to-sfx'
+  source_operation: POST https://api.mirelo.ai/v2/video-to-sfx
   status: candidate
 - name: edit_audio_extend
   description: Extend an existing generated sound effect.
-  source_operation: 'POST https://api.mirelo.ai/v2/edit-audio'
+  source_operation: POST https://api.mirelo.ai/v2/edit-audio
   status: candidate
 - name: inpaint_audio
   description: Remove/replace unwanted sounds within a clip (audio or video variant).
-  source_operation: 'POST https://api.mirelo.ai/v2/inpaint-audio'
+  source_operation: POST https://api.mirelo.ai/v2/inpaint-audio
   status: candidate
-notes: >-
-  Tool source_operations are grounded in the documented REST surface
-  (https://mirelo.ai/api-docs). Exact request/response schemas are not published
-  as an OpenAPI document, so tools are marked candidate.
+notes: Tool source_operations are grounded in the documented REST surface (https://mirelo.ai/api-docs).
+  Exact request/response schemas are not published as an OpenAPI document, so tools are marked candidate.
+deployment:
+  mode: third-party
+  verified: searched
+  tools: 5
+  checked: '2026-08-12'
+  source: catalog MCP census
