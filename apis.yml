@@ -58,7 +58,7 @@ tags:
 - Video
 - Text to Audio
 - Audio to MIDI
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Ai Ml
@@ -69,6 +69,7 @@ tags_raw:
 - Text to Audio
 - Audio to MIDI
 - Machine Learning
+- Machine-Learning
 apis:
 - name: Mirelo SFX API
   description: >-
