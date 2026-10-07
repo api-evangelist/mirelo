@@ -1,0 +1,67 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://mirelo.ai/pricing
+sources:
+- https://mirelo.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Monthly credit plans billed through Stripe; credits shared across products with estimated minutes
+  per plan. Enterprise is Contact Sales.
+plan_count: 6
+currency: EUR
+plans:
+- name: Free
+  price_text: 0 € / month
+  price: 0
+  currency: EUR
+  period: month
+  unit: credits
+  included_quota: 5.000 credits included each month, 3 Projects, projects delete after 1 week, watermark
+    on exports
+- name: Creator
+  price_text: 20 € / month
+  price: 20
+  currency: EUR
+  period: month
+  unit: credits
+  included_quota: 24.000 credits included each month, 20 projects
+  overage: Additional credits - 0,90 € / 1000 credits
+- name: Studio
+  price_text: 99 € / month
+  price: 99
+  currency: EUR
+  period: month
+  unit: credits
+  included_quota: 120.000 credits included each month, Unlimited projects
+  overage: Additional credits - 0,90 € / 1000 credits
+- name: Scale
+  price_text: 299 € / month
+  price: 299
+  currency: EUR
+  period: month
+  unit: credits
+  included_quota: 420.000 credits included each month, Unlimited projects
+  overage: Additional credits - 0,80 € / 1000 credits
+- name: Business
+  price_text: 999 € / month
+  price: 999
+  currency: EUR
+  period: month
+  unit: credits
+  included_quota: 1.440.000 credits included each month, Unlimited projects
+  overage: Additional credits - 0,75 € / 1000 credits
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Custom credits each month, Unlimited projects, API access and dedicated support
+  overage: Custom credits and volume pricing
