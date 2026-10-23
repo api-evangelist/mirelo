@@ -123,3 +123,16 @@
     sector: aiml
   status: not-a-workflow
   arazzo: null
+- slug: mirelo-adobe-premiere-pro-own
+  label: Adobe Premiere Pro (own)
+  partner: adobe-premiere
+  partner_name: Adobe Premiere Pro (own)
+  category: Adobe Exchange Creative Cloud listing (Premiere Pro)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/8a13d073/mirelo-ai
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
