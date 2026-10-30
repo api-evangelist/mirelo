@@ -64,6 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mirelo is a company surfaced as a portfolio company of index-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the enrichment pipeline.
+Mirelo is a Berlin-based AI research lab building state-of-the-art audio foundation models for visual media. Its flagship Mirelo SFX model generates production-ready, perfectly synced sound effects directly from video (or from text prompts) with no background-music noise, plus iterative editing, audio inpainting, sound extension, and a multi-instrument Audio-to-MIDI model. Mirelo ships a self-serve REST API (https://api.mirelo.ai/v2/), the Mirelo Studio web app, official Node.js and Python SDKs, and editor plugins for Adobe Premiere Pro, DaVinci Resolve, Reaper, and Roblox Studio. The models are also distributed on fal.ai, Replicate, and Runware. Founded by musicians-turned-AI researchers from Amazon, Google Brain, Max Planck and ETH Zurich, Mirelo raised a $41M seed round co-led by Index Ventures and Andreessen Horowitz in December 2025.
 
-Backed by: index-ventures — http://mirelo.ai
+**Areas:** Company · Artificial Intelligence · Audio · Sound Effects · Generative AI · Video · Text to Audio · Audio to MIDI · Machine Learning
+
+## Mirelo on APIs.io
+
+Everything profiled for Mirelo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mirelo/](https://apis.io/providers/mirelo/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Mirelo SFX API](https://apis.io/apis/mirelo/mirelo-sfx-api/) — Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [mirelo-mcp-server](https://apis.io/servers/mirelo/mirelo-mcp-server/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mirelo Authentication](https://apis.io/security/mirelo/mirelo-authentication/)
+- [Mirelo Domain Security](https://apis.io/security/mirelo/mirelo-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mirelo Plans Pricing](https://apis.io/plans/mirelo/mirelo-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mirelo.ai)
+- [Documentation](https://mirelo.ai/api-docs)
+- [API reference](https://mirelo.ai/api-docs)
+- [Pricing](https://mirelo.ai/pricing)
+- [Sign up](https://mirelo.ai/sfx)
+- [Support](https://mirelo.ai/support)
+- [Blog](https://mirelo.ai/blog)
+- [Terms of service](https://mirelo.ai/terms)
+- [Privacy policy](https://mirelo.ai/privacy)
+- [GitHub](https://github.com/mirelo-ai)
+- [Status](https://status.mirelo.ai)
+
+## API Evangelist rating
+
+**Kin Score 35.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 76.3 |
+
+**Agent readiness 4.7** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | platform (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mirelo/](https://apis.io/providers/mirelo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mirelo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mirelo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
